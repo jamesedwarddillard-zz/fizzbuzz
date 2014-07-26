@@ -19,18 +19,18 @@ def fizzbuzz(n):
 
 			if i % 5 == 0:
 
-				print 'Fizz Buzz'
+				print 'FizzBuzz',
 
 			else:
 
-				print 'Fizz'
+				print 'Fizz',
 
 		elif i % 5 == 0:
 
-			print 'Buzz'
+			print 'Buzz',
 
 		else:
 
-			print i 
+			print i, 
 
 fizzbuzz(100)
