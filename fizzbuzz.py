@@ -8,7 +8,7 @@ a) replace numbers divisible by 3 with fizz
 b) replace numbers divisible by 5 with buzz
 c) replace numbers divisible by 3 and 5 with FizzBuzz"""
 
-n = 100 #hard coded to start 
+n = int(raw_input('Where should I fizz buzz count to? '))
 
 print 'FizzBuzz counting up to %s' % str(n)
 
