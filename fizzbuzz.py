@@ -9,9 +9,11 @@ b) replace numbers divisible by 5 with buzz
 c) replace numbers divisible by 3 and 5 with FizzBuzz"""
 
 def fizzbuzz(n):
-	Print "FizzBuzz counting up to %s" % str(n)
+	print 'FizzBuzz counting up to %s' % str(n)
 
-	for i in n:
+	for i in range(n):
+
+		i += 1
 
 		if i % 3 == 0:
 
