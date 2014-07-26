@@ -1,5 +1,9 @@
-# Fizz Buzz Program gonna go here
+"""Version 1 -- FizzBuzz
 
-#made a change to test how this works - trying by not saving it it
+Requirements: 
 
-# one more change
+1) first print fizzbuzz counting up to n
+2) Then the program should print out each number from 1 to n
+a) replace numbers divisible by 3 with fizz
+b) replace numbers divisible by 5 with buzz
+c) replace numbers divisible by 3 and 5 with FizzBuzz"""
