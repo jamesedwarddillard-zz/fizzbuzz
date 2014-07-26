@@ -1,0 +1,11 @@
+Running questions for Denis
+
+Things to talk about during our next conversation:
+
+Is my virtual environment setting up correctly? Can we walk through this together?
+
+When is the command 'finally' most useful?
+
+For the assert command - is this essentially creating our own error messages?
+
+Is there a way to use git from the command line without entering my password each time I push to git hub? 
