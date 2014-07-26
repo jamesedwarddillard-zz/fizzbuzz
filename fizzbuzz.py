@@ -8,29 +8,29 @@ a) replace numbers divisible by 3 with fizz
 b) replace numbers divisible by 5 with buzz
 c) replace numbers divisible by 3 and 5 with FizzBuzz"""
 
-def fizzbuzz(n):
-	print 'FizzBuzz counting up to %s' % str(n)
+n = 100 #hard coded to start 
 
-	for i in range(n):
+print 'FizzBuzz counting up to %s' % str(n)
 
-		i += 1
+for i in range(n):
 
-		if i % 3 == 0:
+	i += 1
 
-			if i % 5 == 0:
+	if i % 3 == 0:
 
-				print 'FizzBuzz',
+		if i % 5 == 0:
 
-			else:
-
-				print 'Fizz',
-
-		elif i % 5 == 0:
-
-			print 'Buzz',
+			print 'FizzBuzz',
 
 		else:
 
-			print i, 
+			print 'Fizz',
 
-fizzbuzz(100)
+	elif i % 5 == 0:
+
+		print 'Buzz',
+
+	else:
+
+		print i, 
+
