@@ -8,29 +8,29 @@ a) replace numbers divisible by 3 with fizz
 b) replace numbers divisible by 5 with buzz
 c) replace numbers divisible by 3 and 5 with FizzBuzz"""
 
-n = int(raw_input('Where should I fizz buzz count to? '))
+#User entry
+import sys
 
+while True:
+	try:
+		n = int(sys.argv[1])
+		break
+	except IndexError:
+		n = int(raw_input('How high should I fizz buzz?'))
+		break
+
+# requirement 1
 print 'FizzBuzz counting up to %s' % str(n)
 
+#counting
 for i in range(n):
-
 	i += 1
-
 	if i % 3 == 0:
-
 		if i % 5 == 0:
-
 			print 'FizzBuzz',
-
 		else:
-
 			print 'Fizz',
-
 	elif i % 5 == 0:
-
 		print 'Buzz',
-
 	else:
-
 		print i, 
-
