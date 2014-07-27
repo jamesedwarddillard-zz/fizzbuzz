@@ -9,3 +9,5 @@ When is the command 'finally' most useful?
 For the assert command - is this essentially creating our own error messages?
 
 Is there a way to use git from the command line without entering my password each time I push to git hub? 
+
+How could I make fizz buzz keep asking for a number a certain number of times until it just says 'sorry, come back later?'

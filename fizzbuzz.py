@@ -11,13 +11,16 @@ c) replace numbers divisible by 3 and 5 with FizzBuzz"""
 #User entry
 import sys
 
-while True:
-	try:
-		n = int(sys.argv[1])
-		break
-	except IndexError:
-		n = int(raw_input('How high should I fizz buzz?'))
-		break
+try:
+	n = sys.argv[1]
+except IndexError:
+	n = raw_input('How high should I fizz buzz?')
+
+try:
+	n = int(n)
+except ValueError:
+	print 'Sorry, I can only fizz buzz with numbers (e.g., 7 instead of seven)'
+	n = int(raw_input('Can you give me a number to fizz buzz to?'))
 
 # requirement 1
 print 'FizzBuzz counting up to %s' % str(n)
