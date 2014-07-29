@@ -21,3 +21,5 @@ Is there an IDE that he suggests?
 Should I really give my parent class a class of object? http://slides.com/jasonmyers/learnpython-classes#/36
 
 Is there a reason to use branch's in git if you're working by yourself?
+
+if __name__ = '__main__' = how does this work?
