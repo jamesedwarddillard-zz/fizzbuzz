@@ -28,7 +28,11 @@ def fizzbuzz(n = 127): #added fizzbuzz function
 		n = int(n)
 	except ValueError:
 		print 'Sorry, I can only fizz buzz with numbers (e.g., 7 instead of seven)'
-		n = int(raw_input('Can you give me a number to fizz buzz to?'))
+		try:
+			n = int(raw_input('Can you give me a number to fizz buzz to?'))
+		except ValueError:
+			n = 127 #added this because the default value wasn't coming throught... we should talk about why
+			print 'Okay, 127 it is!'
 
 	# requirement 1
 	print 'FizzBuzz counting up to %s' % n
@@ -45,3 +49,6 @@ def fizzbuzz(n = 127): #added fizzbuzz function
 			print 'Buzz',
 		else:
 			print i, 
+
+if __name__ == '__main__':
+	fizzbuzz()
