@@ -23,7 +23,7 @@ except ValueError:
 	n = int(raw_input('Can you give me a number to fizz buzz to?'))
 
 # requirement 1
-print 'FizzBuzz counting up to %s' % str(n)
+print 'FizzBuzz counting up to %s' % n
 
 #counting
 for i in range(n):
