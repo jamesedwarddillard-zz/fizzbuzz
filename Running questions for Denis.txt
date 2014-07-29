@@ -15,3 +15,9 @@ How could I make fizz buzz keep asking for a number a certain number of times un
 In assignment one of lesson 5, it gives me the option to clone a git link - how can I do this?
 
 Is there a way to copy and paste in the command line? 
+
+Is there an IDE that he suggests? 
+
+Should I really give my parent class a class of object? http://slides.com/jasonmyers/learnpython-classes#/36
+
+Is there a reason to use branch's in git if you're working by yourself?

@@ -11,6 +11,12 @@ c) replace numbers divisible by 3 and 5 with FizzBuzz"""
 #User entry
 import sys
 
+def divisible(n, d): #added divisible function
+	if n % d == 0:
+		return True
+	else: 
+		return False
+
 try:
 	n = sys.argv[1]
 except IndexError:
