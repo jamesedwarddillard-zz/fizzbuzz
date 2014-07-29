@@ -11,11 +11,8 @@ c) replace numbers divisible by 3 and 5 with FizzBuzz"""
 #User entry
 import sys
 
-def divisible(a, d): #added divisible function
-	if a % d == 0:
-		return True
-	else: 
-		return False
+def divisible(number, diviser): #added divisible function
+	return number % diviser == 0
 
 def fizzbuzz(n = 127): #added fizzbuzz function
 
