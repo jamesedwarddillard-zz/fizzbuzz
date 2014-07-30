@@ -40,7 +40,7 @@ if __name__ == '__main__':
 		try:
 			n = int(raw_input('Can you give me a number to fizz buzz to?'))
 		except ValueError:
-			n = 127 #added this because the default value wasn't coming throught... we should talk about why
+			n = 127
 			print 'Okay, 127 it is!'
 
 	fizzbuzz(n)
